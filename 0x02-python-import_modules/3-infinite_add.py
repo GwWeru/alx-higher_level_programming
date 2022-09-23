@@ -4,4 +4,4 @@ if __name__ == '__main__':
     numb = 0
     for index in argv[1:]:
         numb += int(index)
-        print({}.format(numb))
+    print('{:d}'.format(numb))
