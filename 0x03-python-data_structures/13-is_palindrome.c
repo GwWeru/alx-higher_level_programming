@@ -6,6 +6,7 @@
  * Return: 0 if not palindrome else 1
  */
 int is_palindrome(listint_t **head)
+
 {
 	if (head == NULL || *head == NULL)
 		return (1);
@@ -19,6 +20,7 @@ int is_palindrome(listint_t **head)
  * Return: 0 if not palindrom else 1
  */
 int check_pal(listint_t **head, listint_t *last)
+
 {
 	if (last == NULL)
 		return (1);
