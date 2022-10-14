@@ -3,6 +3,7 @@
 Square class defination
 """
 
+
 class Square:
     """
     Square class with private instance attribute size
