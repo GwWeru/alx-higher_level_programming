@@ -2,6 +2,8 @@
 """
 Square class defination
 """
+
+
 class Square:
     """
     Empty square class
