@@ -11,4 +11,4 @@ def lookup(obj):
     function that returns the list of available
     attributes, methods and objects
     """
-       return (dir(obj))
+    return (dir(obj))
