@@ -11,7 +11,7 @@ class BaseGeometry:
     class Base has public instance
     """
     def area(self):
-    """
-    function that raises exception
-    """
-    raise Exception("area() is not implemented")
+        """
+        function that raises exception
+        """
+        raise Exception("area() is not implemented")
