@@ -1,4 +1,14 @@
 #!/usr/bin/python3
-def print_list_integer(my_list=[]):
-    for index in my_list:
-        print('{:d}'.format(index)
+"""
+This module contains a function that returns
+the list of available attributes and methods
+of an object
+"""
+
+
+def lookup(obj):
+        """
+        function that returns the list of available
+        attributes, methods and objects
+        """
+        return (dir(obj))
