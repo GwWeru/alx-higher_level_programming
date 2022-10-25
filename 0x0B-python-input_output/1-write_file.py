@@ -6,7 +6,7 @@ of a text file
 """
 
 
-def number_of_lines(filename="")
+def number_of_lines(filename=""):
     """
     function returns number of lines
     """
