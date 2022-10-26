@@ -10,6 +10,5 @@ def number_of_lines(filename=""):
     Returns:
     The number of characters written.
     """
-    i = 0
     with open(filename, encoding="utf-8") as f:
         return f.write(text)
