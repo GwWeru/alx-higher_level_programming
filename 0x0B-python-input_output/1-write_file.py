@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""
-This file contains functiom
-that returns the number of lines
-of a text file
-"""
+"""Defines a file-writing function."""
 
 
 def number_of_lines(filename=""):
