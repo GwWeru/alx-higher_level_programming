@@ -11,7 +11,5 @@ def number_of_lines(filename=""):
     function returns number of lines
     """
     i = 0
-    with open(filename, encoding="utf-8") as myFile:
-        for line in myFile:
-            i += 1
-                return (i)
+    with open(filename, encoding="utf-8") as f:
+        return f.write(text)
