@@ -8,7 +8,5 @@ serialization of obj
 
 
 def class_to_json(obj):
-    """
-    function that returns dict descp
-    """
+    """function that returns dict descp"""
     return (obj.__dict__)
