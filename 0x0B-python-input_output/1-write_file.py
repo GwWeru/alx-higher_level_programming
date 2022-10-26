@@ -3,8 +3,12 @@
 
 
 def number_of_lines(filename=""):
-    """
-    function returns number of lines
+    """Write a string to a UTF8 text file.
+    Args:
+    filename (str): The name of the file to write.
+    text (str): The text to write to the file.
+    Returns:
+    The number of characters written.
     """
     i = 0
     with open(filename, encoding="utf-8") as f:
