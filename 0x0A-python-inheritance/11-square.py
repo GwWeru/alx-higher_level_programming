@@ -25,6 +25,7 @@ class BaseGeometry:
         if value <= 0:
             raise ValueError("{:s} must be greater than 0".format(name))
 
+
 class Rectangle(BaseGeometry):
     """
     class Rectangle with private height and width
@@ -49,6 +50,7 @@ class Rectangle(BaseGeometry):
         string representation of the rectangle
         """
         return("[Rectangle] {:d}/{:d}".format(self.__width, self.__height))
+
 
 class Square(Rectangle):
     """
