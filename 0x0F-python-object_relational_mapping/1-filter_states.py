@@ -6,7 +6,7 @@ should take 3 arguments username, passwd and db name
 
 
 if __name__ == '__main__':
-    from sys import argv
+    import sys
     import MySQLdb
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
     cur = db.cursor()
