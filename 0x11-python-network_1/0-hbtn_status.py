@@ -3,11 +3,8 @@ import urllib.request
 """
 Script that fetches https://intranet.hbtn.io/status
 """
-
 if __name__ == "__main__":
-    with urllib.request.urlopen('https://intranet.hbtn.io/status') as reply:
-        body = reply.read()
+    with urllib.request.urlopen('https://intranet.hbtn.io/status') as response:
+        html = response.read()
     print("Body response:")
-    print("\t- type: {}".format(type(body)))
-    print("\t- content: {}".format(body))
-    print("\t- utf8 content: {}".format(body.decode(encoding="utf -8")))
+    print("\t- type: {}\n\t- content: {}\n\t- utf8 content: {}".format(type(html), html, html.decode('utf-8')))
